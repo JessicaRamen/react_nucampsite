@@ -26,8 +26,6 @@ class CommentForm extends Component {
 
     }
 
-    
-    
         toggleModal = () => {
             this.setState({
                 isModalOpen: !this.state.isModalOpen
@@ -39,7 +37,6 @@ class CommentForm extends Component {
         }
 
     render() {
-
         return (
             <div>
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
